@@ -7,9 +7,9 @@ Anime tarzı, **sesle konuşan** bir masaüstü AI arkadaşı. Kendi API anahtar
 
 ## ⬇️ İndir
 
-**[→ Yuki-0.4.0.AppImage (Linux x86_64, ~960 MB)](https://github.com/ihsandeniz/yuki-ai/releases/latest/download/Yuki-0.4.0.AppImage)**
+**[→ Son sürümü indir (Linux AppImage · Windows zip)](https://github.com/ihsandeniz/yuki-ai/releases/latest)**
 
-*Windows & macOS yakında.*
+*Linux ve Windows (x64) hazır; macOS yok.*
 
 ## Ne var? (Ücretsiz Lite sürüm)
 
