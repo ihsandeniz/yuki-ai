@@ -22,8 +22,9 @@ Anime tarzı, **sesle konuşan** bir masaüstü AI arkadaşı. Kendi API anahtar
 
 ## Nasıl çalıştırılır?
 
-1. Yukarıdan **Yuki-0.4.0.AppImage**'ı indir.
-2. Çalıştırma izni ver: `chmod +x Yuki-0.4.0.AppImage` (veya sağ tık → Özellikler → "Çalıştırılabilir").
+1. Yukarıdan indirdiğin **Yuki-…-lite.AppImage** dosyasını al.
+2. Çalıştırma izni ver: `chmod +x Yuki-*.AppImage` (veya sağ tık → Özellikler → "Çalıştırılabilir").
+   *Windows'ta:* `Yuki-…-win-x64-lite.zip`'i kullanıcı klasörüne aç (`C:\Program Files` değil), `Yuki.exe`'yi çalıştır.
 3. Çift tıkla aç — kurulum yok.
 4. **⚙ AYAR → 🔑 ANAHTAR** → [openrouter.ai/keys](https://openrouter.ai/keys) ücretsiz anahtarını yapıştır → Kaydet.
 5. Yuki'yle konuşmaya başla ✨
