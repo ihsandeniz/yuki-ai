@@ -1,6 +1,6 @@
 # Yuki — Sesli AI Companion (Lite)
 
-Anime tarzı, **sesle konuşan** bir masaüstü AI arkadaşı. Kendi API anahtarınla (BYOK) çalışır — kurulum yok, tek dosya.
+Anime tarzı, **sesle konuşan** bir masaüstü AI arkadaşı. Kendi API anahtarınla (BYOK) çalışır — kurulum yok (Linux'ta tek dosya, Windows'ta zip).
 
 > Bu depo yalnızca **indirilebilir sürümü** barındırır (kaynak kod burada değildir).
 > Tanıtım & portfolyo: **[ihsandeniz.net.tr](https://ihsandeniz.net.tr/proje.html?p=alice)**
@@ -13,12 +13,12 @@ Anime tarzı, **sesle konuşan** bir masaüstü AI arkadaşı. Kendi API anahtar
 
 ## Ne var? (Ücretsiz Lite sürüm)
 
-- 🎙️ **Sesli sohbet** — Yuki konuşur ve dinler (çevrimdışı Edge TTS + faster-whisper)
+- 🎙️ **Sesli sohbet** — Yuki konuşur ve dinler (ses: Edge TTS, internet ister · konuşma tanıma: faster-whisper, cihazında)
 - 🛠️ **20 sistem aracı** — web arama, hava, döviz & kripto, not, görev, hatırlatıcı, OCR, QR, pano, medya
-- 🔑 **Kendi anahtarın (BYOK)** — OpenRouter, ücretsiz modellerle başla
-- 🖥️ **İki arayüz** — Klasik sohbet + HALKA HUD
+- 🔑 **Kendi anahtarın (BYOK)** — OpenRouter dahil 15 bulut sağlayıcı ya da anahtarsız yerel Ollama; OpenRouter'ın ücretsiz modelleriyle başla
+- 🖥️ **İki arayüz** — Sohbet + HALKA HUD
 
-*Kalıcı hafıza · çoklu karakter · planlayıcı · gelişmiş araçlar → Pro sürümde.*
+*Çoklu karakter · planlayıcı · gelişmiş araçlar → Pro · kalıcı (semantik) hafıza → Ultra.*
 
 ## Nasıl çalıştırılır?
 
@@ -32,12 +32,13 @@ Anime tarzı, **sesle konuşan** bir masaüstü AI arkadaşı. Kendi API anahtar
 ## Gereksinimler
 
 - Linux (x86_64), glibc tabanlı bir dağıtım
-- İnternet bağlantısı (LLM için — OpenRouter API)
-- Bir OpenRouter API anahtarı (ücretsiz alınır)
+- ya da Windows 10/11 (x64)
+- İnternet bağlantısı (bulut LLM, sesli yanıt ve web araçları için)
+- Bir LLM API anahtarı — ör. OpenRouter (ücretsiz alınır); yerel Ollama kullanırsan anahtar gerekmez
 
 ## Gizlilik
 
-Anahtarın ve verilerin **yalnızca kendi bilgisayarında** saklanır (`~/.config/alice-ai/`). Uygulama, seçtiğin LLM sağlayıcı (OpenRouter) dışında hiçbir yere veri göndermez.
+Anahtarın ve verilerin **yalnızca kendi bilgisayarında** saklanır (Linux `~/.config/alice-ai/` · Windows `%APPDATA%\alice-ai\`). Bizim sunucumuza hiçbir şey gitmez. Uygulamanın konuştuğu dış servisler: seçtiğin LLM sağlayıcı, sesli yanıt için Microsoft Edge TTS (Yuki'nin cevap metni), kullandığın araçlara göre DuckDuckGo / Open-Meteo (hava) / Frankfurter (döviz) / CoinGecko (kripto) ve güncelleme denetimi için GitHub.
 
 ---
 
